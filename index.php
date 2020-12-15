@@ -24,6 +24,7 @@ add_action('admin_menu', 'create_form_upload');
  * 
  * 
  */
+
 function create_form_upload()
 {
     add_menu_page(
@@ -92,26 +93,19 @@ function func_test()
         }
     }
 }
-function shortcode_bienvenue()
+function shortcode_welcome()
 {
-    return "<h2>Bienvenue chez moi !</h2>";
+    return "<h2>Welcome home !</h2>";
 }
 
 
 function get_text()
 {
-    return 'on verra';
+    return 'Some text custom';
 }
 
-
-function get_js($param)
-{
-    return '<script src="' . $param . '"></script>';
-}
-
-add_shortcode('txt', 'get_js');
 add_shortcode('txt', 'get_text');
-add_shortcode('bienvenue', 'shortcode_bienvenue');
+add_shortcode('welcome', 'shortcode_welcome');
 
 
 function admin_enqueue_scripts()
