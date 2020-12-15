@@ -1,0 +1,78 @@
+.title-p, .sub-title-p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #684e2d;
+}
+
+.sub-title-p {
+  color: #a97736;
+}
+
+.div-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px #684e2d;
+          box-shadow: 5px 5px #684e2d;
+  width: 70%;
+  margin: auto;
+}
+
+.form-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+.input-p {
+  background-color: #684e2d;
+}
+
+.input-p:hover {
+  background-color: #2d5a68;
+  cursor: pointer;
+}
+
+p.error, p.gg {
+  margin: auto;
+  text-align: center;
+}
+
+p.error {
+  color: red;
+}
+
+p.gg {
+  color: green;
+}
+
+.label-border {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  padding: 2%;
+}
+
+.label-border:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  -webkit-box-shadow: 2px 2px #30682d;
+          box-shadow: 2px 2px #30682d;
+}
+/*# sourceMappingURL=admin-css.css.map */
